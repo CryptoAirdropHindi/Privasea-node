@@ -12,6 +12,13 @@
 | **Processor**             | 6 cores                             |
 
 
+ First install `Docker` in your system if it is not already there by using below command
+```
+source <(wget -O - https://raw.githubusercontent.com/CryptoAirdropHindi/Tools/refs/heads/main/docker.sh)
+```
+```
+sudo groupadd docker && sudo usermod -aG docker $(whoami) && newgrp docker
+```
 - First pull the docker image using the following command
 ```
 docker pull privasea/acceleration-node-beta:latest
