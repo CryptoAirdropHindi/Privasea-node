@@ -1,6 +1,17 @@
 # Privasea-node
 
 
+## Minimum System Requirements
+
+| **Component**             | **Requirement**                     |
+|---------------------------|-------------------------------------|
+| **Operating System (OS)** | Ubuntu (Recommended)                |
+| **CPU Architecture**      | amd64 (x86 architecture)            |
+| **Storage**               | 100GB available storage             |
+| **Memory (RAM)**          | 4GB RAM                             |
+| **Processor**             | 6 cores                             |
+
+
 - First pull the docker image using the following command
 ```
 docker pull privasea/acceleration-node-beta:latest
