@@ -86,3 +86,8 @@ docker ps -a
 ![Screenshot 2025-01-25 143530](https://github.com/user-attachments/assets/236dbc21-5c3b-4faa-864e-59111f574a5f)
 
 - Now follow the guide from **Step 3 (Manage my Privanetix node)** from [this docs](https://www.privasea.ai/privanetix-node)
+
+# Optional: Stop and Delete privanetix-node
+```
+rm -rf privasea && docker stop privanetix-node && docker rm privanetix-node
+```
