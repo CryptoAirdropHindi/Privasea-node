@@ -91,3 +91,4 @@ docker ps -a
 ```
 rm -rf privasea && docker stop privanetix-node && docker rm privanetix-node
 ```
+![Screenshot 2025-01-25 234430](https://github.com/user-attachments/assets/812b2957-cd91-47f5-b1fe-2693462dba48)
