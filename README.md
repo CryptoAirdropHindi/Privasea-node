@@ -47,5 +47,12 @@ mv $HOME/privasea/config/UTC--* $HOME/privasea/config/wallet_keystore
 ```
 KEYSTORE_PASSWORD=ENTER_YOUR_KEYSTORE_PASSWORD && docker run -d --name privanetix-node -v "$HOME/privasea/config:/app/config" -e KEYSTORE_PASSWORD=$KEYSTORE_PASSWORD privasea/acceleration-node-beta:latest
 ```
-
+Docker container 
+```
+docker ps -a
+```
+Docker container restart
+```
+docker restart <containerID>
+```
 - Now follow the guide from **Step 3 (Manage my Privanetix node)** from [this docs](https://www.privasea.ai/privanetix-node)
