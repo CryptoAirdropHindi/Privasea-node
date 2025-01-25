@@ -1,6 +1,6 @@
 # Privasea-node
 
-# What is Privasea?
+# What is privasea?
 
 DePIN & Privasea is a decentralized AI network that leverages Fully Homomorphic Encryption Machine Learning (FHEML) 
 for secure data circulation. It utilizes distributed computing resources for FHE AI operations, supported by ZAMA's
