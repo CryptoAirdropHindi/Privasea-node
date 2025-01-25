@@ -16,6 +16,11 @@ concrete ML technology. The ecosystem is incentivized with $PRVA tokens, encoura
 | **Memory (RAM)**          | 4GB RAM                             |
 | **Processor**             | 6 cores                             |
 
+- [Arbitrum Sepolia](https://faucet.quicknode.com/arbitrum/sepolia)
+- [Arbitrum Sepolia](https://faucets.chain.link/arbitrum-sepolia)
+- [Arbitrum Sepolia](https://bwarelabs.com/faucets/arbitrum-sepolia)
+
+
 Update the package list: This makes sure your system knows about the latest versions of packages.
 ```
 sudo apt update
