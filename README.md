@@ -66,12 +66,12 @@ docker ps -a
 ```
 
 # Then if the status shows `Exited` then use the following command
+![Screenshot 2025-01-25 142607](https://github.com/user-attachments/assets/d8f5610f-e5e1-4213-8ae2-a19f18065617)
 
 Docker container restart
 ```
 docker restart <containerID>
 ```
-![Screenshot 2025-01-25 142607](https://github.com/user-attachments/assets/d8f5610f-e5e1-4213-8ae2-a19f18065617)
 ![Screenshot 2025-01-25 142659](https://github.com/user-attachments/assets/ef2400e1-f192-4213-8422-ddbd698fa595)
 
 # Then check the status again.
