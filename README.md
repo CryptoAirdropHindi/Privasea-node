@@ -11,6 +11,11 @@
 | **Memory (RAM)**          | 4GB RAM                             |
 | **Processor**             | 6 cores                             |
 
+Update the package list: This makes sure your system knows about the latest versions of packages.
+```
+sudo apt update
+sudo apt upgrade -y
+```
 
  First install `Docker` in your system if it is not already there by using below command
 ```
