@@ -1,6 +1,7 @@
 # Privasea-node
 
-What is Privasea?
+# What is Privasea?
+
 Privasea is a decentralized AI network that leverages Fully Homomorphic Encryption Machine Learning (FHEML) 
 for secure data circulation. It utilizes distributed computing resources for FHE AI operations, supported by ZAMA's
 concrete ML technology. The ecosystem is incentivized with $PRVA tokens, encouraging crowdsourcing efforts within the network.
