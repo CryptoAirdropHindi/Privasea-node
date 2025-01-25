@@ -57,12 +57,35 @@ mv $HOME/privasea/config/UTC--* $HOME/privasea/config/wallet_keystore
 ```
 KEYSTORE_PASSWORD=ENTER_YOUR_KEYSTORE_PASSWORD && docker run -d --name privanetix-node -v "$HOME/privasea/config:/app/config" -e KEYSTORE_PASSWORD=$KEYSTORE_PASSWORD privasea/acceleration-node-beta:latest
 ```
-Docker container 
+`Error,` # If you have successfully run the node and then docker container ID is not showing then follow the steps below
+
+
+Docker container check
 ```
 docker ps -a
 ```
+
+# Then if the status shows `Exited` then use the following command
+
+![Screenshot 2025-01-25 142607](https://github.com/user-attachments/assets/d8f5610f-e5e1-4213-8ae2-a19f18065617)
+
 Docker container restart
 ```
 docker restart <containerID>
 ```
+![Screenshot 2025-01-25 142659](https://github.com/user-attachments/assets/ef2400e1-f192-4213-8422-ddbd698fa595)
+
+
+# Then check the status again.
+
+![Screenshot 2025-01-25 142800](https://github.com/user-attachments/assets/f678ab20-28f6-4a33-a73f-0e9b6cb825b1)
+
+```
+docker ps -a
+```
+
+# Then go to the dashboard and check if your status is online.
+
+![Screenshot 2025-01-25 143530](https://github.com/user-attachments/assets/236dbc21-5c3b-4faa-864e-59111f574a5f)
+
 - Now follow the guide from **Step 3 (Manage my Privanetix node)** from [this docs](https://www.privasea.ai/privanetix-node)
